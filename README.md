@@ -13,7 +13,7 @@ A simplistic clean and minimal theme for rEFInd
 
 1. Just paste this command in your terminal and enter your choices.
    ```
-   # sh -c "$(curl -fsSL https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/install.sh)"
+   # sh -c "$(curl -fsSL https://raw.githubusercontent.com/noraj/refind-theme-regular/master/install.sh)"
    ```
 2. To further adjust icon size, font size, background color and selector color edit `theme.conf`.
 
@@ -25,7 +25,7 @@ A simplistic clean and minimal theme for rEFInd
 
 1. Clone git repository to your $HOME directory.
    ```
-   $ git clone https://github.com/bobafetthotmail/refind-theme-regular.git
+   $ git clone https://github.com/noraj/refind-theme-regular.git
    ```
 
 2. Remove unused directories and files.
