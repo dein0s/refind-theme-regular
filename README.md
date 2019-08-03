@@ -44,7 +44,7 @@ A simplistic clean and minimal theme for rEFInd
    # rm -rf /boot/efi/EFI/refind/{regular-theme,refind-theme-regular}
    ```
    ```
-   # mkdir /boot/efi/EFI/refind/themes/
+   # mkdir -p /boot/efi/EFI/refind/themes/
    # cp -r refind-theme-regular /boot/efi/EFI/refind/themes/
    ```
 
