@@ -3,10 +3,11 @@
 A simplistic clean and minimal theme for rEFInd
 
 (default settings)
-![Screenshot 01](https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/src/white_theme.png)
+![Screenshot 01](https://raw.githubusercontent.com/noraj/refind-theme-regular/master/src/white_theme.png)
 
 (dark theme selected)
-![Screenshot 02](https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/src/dark_theme.png)
+![Screenshot 02](https://raw.githubusercontent.com/noraj/refind-theme-regular/master/src/dark_theme.png)
+
 **press F10 to take screenshot**
 
 ### Installation [Quick]:
