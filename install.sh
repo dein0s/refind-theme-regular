@@ -117,7 +117,7 @@ echo " - [DONE]"
 
 #Copy theme setup folders
 echo -n "Copying theme to ${location}themes/"
-cp -r refind-theme-regular "${location}themes/"
+cp -r refind-theme-regular/. "${location}themes/refind-theme-regular/"
 echo " - [DONE]"
 
 #Edit refind.conf - remove older themes
