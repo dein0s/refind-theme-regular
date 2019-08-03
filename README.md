@@ -45,8 +45,8 @@ A simplistic clean and minimal theme for rEFInd
    # rm -rf /boot/efi/EFI/refind/{regular-theme,refind-theme-regular}
    ```
    ```
-   # mkdir -p /boot/efi/EFI/refind/themes/
-   # cp -r refind-theme-regular /boot/efi/EFI/refind/themes/
+   # mkdir -p /boot/efi/EFI/refind/themes/refind-theme-regular/
+   # cp -r refind-theme-regular/. /boot/efi/EFI/refind/themes/refind-theme-regular/
    ```
 
 4. To adjust icon size, font size, background color and selector color edit `theme.conf`.
