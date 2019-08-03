@@ -13,27 +13,27 @@ A simplistic clean and minimal theme for rEFInd
 
 1. Just paste this command in your terminal and enter your choices.
    ```
-   sudo sh -c "$(curl -fsSL https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/install.sh)"
+   # sh -c "$(curl -fsSL https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/install.sh)"
    ```
 2. To further adjust icon size, font size, background color and selector color edit `theme.conf`.
 
    ```
-   sudo nano /boot/efi/EFI/refind/refind-theme-regular/theme.conf
+   $ sudoedit /boot/efi/EFI/refind/refind-theme-regular/theme.conf
    ```
 
 ### Installation [Manual]:
 
 1. Clone git repository to your $HOME directory.
    ```
-   git clone https://github.com/bobafetthotmail/refind-theme-regular.git
+   $ git clone https://github.com/bobafetthotmail/refind-theme-regular.git
    ```
 
 2. Remove unused directories and files.
    ```
-   sudo rm -rf refind-theme-regular/{src,.git}
+   $ rm -rf refind-theme-regular/{src,.git}
    ```
    ```
-   sudo rm refind-theme-regular/install.sh
+   $ rm refind-theme-regular/install.sh
    ```
 
 3. Locate refind directory under EFI partition. For most Linux based system is commonly `/boot/efi/EFI/refind/`. Copy theme directory to it.
@@ -41,20 +41,21 @@ A simplistic clean and minimal theme for rEFInd
    **Important:** Delete older installed versions of this theme before you proceed any further.
 
    ```
-   sudo rm -rf /boot/efi/EFI/refind/{regular-theme,refind-theme-regular}
+   # rm -rf /boot/efi/EFI/refind/{regular-theme,refind-theme-regular}
    ```
    ```
-   sudo cp -r refind-theme-regular /boot/efi/EFI/refind/
+   # mkdir /boot/efi/EFI/refind/themes/
+   # cp -r refind-theme-regular /boot/efi/EFI/refind/themes/
    ```
 
 4. To adjust icon size, font size, background color and selector color edit `theme.conf`.
    ```
-   sudo nano /boot/efi/EFI/refind/refind-theme-regular/theme.conf
+   $ sudoedit /boot/efi/EFI/refind/refind-theme-regular/theme.conf
    ```
 
 5. To enable the theme add `include refind-theme-regular/theme.conf` at the end of `refind.conf`, and comment out or delete any other themes you might have installed.
    ```
-   sudo nano /boot/efi/EFI/refind/refind.conf
+   $ sudoedit /boot/efi/EFI/refind/refind.conf
 
    ```
 
