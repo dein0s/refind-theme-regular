@@ -2,8 +2,6 @@
 
 A simplistic clean and minimal theme for rEFInd
 
-NOTE: this is a fork of munlik's theme since he seems to have abandoned his project, he didn't answer to (my) PRs on github for years.
-
 (default settings)
 ![Screenshot 01](https://raw.githubusercontent.com/bobafetthotmail/refind-theme-regular/master/src/white_theme.png)
 
@@ -81,3 +79,17 @@ NOTE: this is a fork of munlik's theme since he seems to have abandoned his proj
 **More information**
 
 [rEFInd](http://www.rodsbooks.com/refind/) The official rEFInd website
+
+## Credits
+
+This is a fork of [bobafetthotmail's theme](https://github.com/bobafetthotmail/refind-theme-regular) which is a fork of [munlik's theme](https://github.com/munlik/refind-theme-regular).
+
+Why bobafetthotmail forked munlik's theme:
+
+Because he wanted to add a dark theme and munlik was unresponsive for years.
+
+> NOTE: this is a fork of munlik's theme since he seems to have abandoned his project, he didn't answer to (my) PRs on github for years.
+
+Why did I forked bobafetthotmail's:
+
+Because bobafetthotmail missunderstood my thoughts and so refused [my PR](https://github.com/bobafetthotmail/refind-theme-regular/pull/7/). I wanted to make a cleaner and more standard deployment.
