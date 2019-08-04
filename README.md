@@ -95,3 +95,12 @@ Because he wanted to add a dark theme and munlik was unresponsive for years.
 Why did I forked bobafetthotmail's:
 
 Because bobafetthotmail missunderstood my thoughts and so refused [my PR](https://github.com/bobafetthotmail/refind-theme-regular/pull/7/). I wanted to make a cleaner and more standard deployment.
+
+What changed:
+
+- deploy the theme in the themes folder (`refindpath/themes/refind-theme-regular`) rather than at refind root (`refindpath/refind-theme-regular`)
+- indenpotent recursive copy: avoiding the copy to mess 1/2 times see [this post](https://unix.stackexchange.com/questions/228597/how-to-copy-a-folder-recursively-in-an-idempotent-way-using-cp)
+- README:
+  - remove sudo when unnecessary
+  - use safer sudoedit rather than sudo anyeditor
+  - use `$` for normal user and `#` for root permissions
