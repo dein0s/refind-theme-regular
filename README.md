@@ -19,7 +19,7 @@ A simplistic clean and minimal theme for rEFInd
 2. To further adjust icon size, font size, background color and selector color edit `theme.conf`.
 
    ```
-   $ sudoedit /boot/efi/EFI/refind/refind-theme-regular/theme.conf
+   $ sudoedit /boot/efi/EFI/refind/themes/refind-theme-regular/theme.conf
    ```
 
 ### Installation [Manual]:
@@ -51,13 +51,12 @@ A simplistic clean and minimal theme for rEFInd
 
 4. To adjust icon size, font size, background color and selector color edit `theme.conf`.
    ```
-   $ sudoedit /boot/efi/EFI/refind/refind-theme-regular/theme.conf
+   $ sudoedit /boot/efi/EFI/refind/themes/refind-theme-regular/theme.conf
    ```
 
-5. To enable the theme add `include refind-theme-regular/theme.conf` at the end of `refind.conf`, and comment out or delete any other themes you might have installed.
+5. To enable the theme add `include themes/refind-theme-regular/theme.conf` at the end of `refind.conf`, and comment out or delete any other themes you might have installed.
    ```
    $ sudoedit /boot/efi/EFI/refind/refind.conf
-
    ```
 
 **NOTE**: If your not geting your full resolution or have color issues then try disabling the CSM in your UEFI settings.
